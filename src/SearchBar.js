@@ -219,4 +219,5 @@ SearchBar.propTypes = {
   value: PropTypes.string,
 };
 
+
 export default withStyles(styles)(SearchBar);
