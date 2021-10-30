@@ -1,0 +1,52 @@
+.card{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.card > div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card_cover {
+    height: 100%;
+    width: auto;   
+    margin: 0 0 0 15px;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    margin: 0 0 0 15px; 
+}
+
+.card_info_title {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.card_info_artist {
+    font-size: 14px;
+    color: #cccccc;
+    margin: 0;
+}
+
+.card_duration {
+    font-size: 16px;
+    color: #cccccc;
+    margin: 0;
+}

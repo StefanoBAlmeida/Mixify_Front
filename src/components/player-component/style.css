@@ -1,0 +1,85 @@
+.player{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #222222;
+    border-top: 1px solid #444444;
+}
+
+.player > div{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.player_cover {
+    height: 100%;
+    width: auto;   
+}
+
+.player_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    margin: 0 0 0 15px; 
+}
+
+.player_info_title {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.player_info_artist {
+    font-size: 12px;
+    color: #cccccc;
+    margin: 0;
+}
+
+.player_controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.player_controls > div {
+    height: 50%;
+}
+
+.player_controls_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player_controls_progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.player_controls_progress_info {
+    font-size: 16px;
+    color: #cccccc;
+    margin: 0 15px;
+}
+
+input[type=range] {
+	height: 5px;
+	-webkit-appearance: none;
+	width: 100%;
+	border-radius: 8px;
+	background: #3b7677;
+	transition: background 0.2s ease;
+	cursor: pointer;
+}
